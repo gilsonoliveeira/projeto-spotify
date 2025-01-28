@@ -1,0 +1,154 @@
+body{
+    background-color: #000;
+}
+
+.sidebar{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    padding:12px;
+    width:300px;
+}
+
+.sidebar__navigation{
+    background-color: #121212;
+    border-radius:8px;
+    padding:16px 0 0 16px;
+}
+
+.logo{
+    background: #121212;
+    display:flex;
+    border-radius:8px ;
+    padding:16px 0 0 16px;
+}
+
+.sidebar__navigation .logo img{
+    width:80px;
+}
+
+.sidebar nav ul{
+    margin-top: 20px;
+    padding:0 20px 10px 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+/* tentativa de Desafio */
+
+.biblioteca {
+    position:fixed;
+    margin-top: 5px;
+    padding:12px;
+    width:276px;
+    background-color: #121212;
+    border-radius:8px;
+    padding:16px 0 0 16px;
+    color: #b3b3b3;
+}
+
+.biblioteca a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.material-symbols-outlined {
+    font-size: 20px; /* Ajuste conforme necessário */
+    line-height: 1; /* Evita espaçamentos extras */
+    vertical-align: middle; /* Ajuste fino no alinhamento */
+}
+
+
+.biblioteca ul li {
+    padding: 10px 0;
+}
+
+.biblioteca ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.push-right{
+    margin-left: auto;
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+.playlist {
+    background-color: #2c2c2c;
+    display: flex;
+    flex-direction: column;
+    border-radius:8px ;
+    padding:16px 0 0 16px;
+    margin: 0px 10px 0px 0px;
+}
+
+.playlist span {
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+}
+
+.playlist span:nth-child(2){
+    font-size: 12px;
+}
+
+.criar_playlist {
+    margin: 20px 0px 20px 0px;
+    text-align: start;
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.cookies {
+    margin: 20px 0px 20px 0px;
+    padding: 7px;
+    color: #b3b3b3;
+    font-size: 12px;
+    font-family: "DM Sans",sans-serif;
+
+}
+
+.idioma {
+    color: white;
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 20px;
+    background-color: #000;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.idioma span {
+    padding-left: 5px;
+}
+
+
+
+
